@@ -10,9 +10,7 @@ public class Arvauspeli {
 		String input = "";
 		int arvauksia = 0;
 		
-		
 		System.out.println("Arvaa nimeni (kirjoita 'loppu' lopettaaksesi)");
-		
 		
 		while (!input.equalsIgnoreCase("loppu")) {
 		input = in.nextLine();	
@@ -31,7 +29,6 @@ public class Arvauspeli {
 		}
 		System.out.println ("Arvasit " + arvauksia + " kertaa. ");
 		
-	
 	}
 	
 }
